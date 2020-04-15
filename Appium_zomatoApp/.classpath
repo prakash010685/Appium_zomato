@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/prakashpatil/Downloads/All folder/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/Users/prakashpatil/Downloads/All folder/Eclipse JAR/BDD JAR/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/prakashpatil/Downloads/All folder/Eclipse JAR/BDD JAR/cucumber-core-1.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/prakashpatil/Downloads/All folder/Eclipse JAR/BDD JAR/cucumber-html-0.2.6.jar"/>
+	<classpathentry kind="lib" path="/Users/prakashpatil/Downloads/All folder/Eclipse JAR/BDD JAR/cucumber-java-1.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/prakashpatil/Downloads/All folder/Eclipse JAR/BDD JAR/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/prakashpatil/Downloads/All folder/Eclipse JAR/BDD JAR/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="/Users/prakashpatil/Downloads/All folder/Eclipse JAR/BDD JAR/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="/Users/prakashpatil/Downloads/All folder/Eclipse JAR/BDD JAR/cucumber-reporting-4.5.1.jar"/>
+	<classpathentry kind="lib" path="/Users/prakashpatil/Downloads/All folder/Eclipse JAR/BDD JAR/cucumber-picocontainer-1.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/prakashpatil/Downloads/All folder/Eclipse JAR/BDD JAR/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
