@@ -3,6 +3,7 @@
  */
 package pageobjects;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -22,10 +23,26 @@ public class Homescreen {
 
 		MobileElement google_login = (MobileElement) wait.until(ExpectedConditions
 				.elementToBeClickable(By.id("com.application.zomato:id/layout_connect_using_google")));
+		
+		
+		
 		google_login.click();
+	
 		MobileElement select_emailID = (MobileElement) wait.until(ExpectedConditions.elementToBeClickable(By.xpath(
 				"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout")));
 		select_emailID.click();
+		
+		// Alert
+		
+		
+		MobileElement alertpopup = (MobileElement) wait.until(ExpectedConditions.elementToBeClickable(By.id("com.application.zomato:id/cover_image")));
+		
+		String str_alert=alertpopup.getText();
+		System.out.println("ALERT MESSAGE= "  +str_alert);
+		alertpopup.click();
+		
+		
+		
 		Thread.sleep(10000);
 	}
 
@@ -35,6 +52,17 @@ public class Homescreen {
 				.until(ExpectedConditions.elementToBeClickable(By.id("com.application.zomato:id/layout_signup")));
 
 		email_login.click();
+		
+		
+		// Alert
+		
+				MobileElement alertpopup = (MobileElement) wait.until(ExpectedConditions.elementToBeClickable(By.id("com.application.zomato:id/cover_image")));
+				
+				String str_alert=alertpopup.getText();
+				System.out.println("ALERT MESSAGE= "  +str_alert);
+				alertpopup.click();
+		
+		
 		Thread.sleep(4000);
 	}
 

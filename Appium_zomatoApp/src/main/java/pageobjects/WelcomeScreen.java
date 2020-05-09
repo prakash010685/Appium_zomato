@@ -3,6 +3,7 @@
  */
 package pageobjects;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -62,6 +63,9 @@ public class WelcomeScreen {
 		MobileElement profile_image = (MobileElement) wait
 				.until(ExpectedConditions.elementToBeClickable(By.id("com.application.zomato:id/profile_image")));
 		profile_image.click();
+		
+		Alert alert=Setup.driver.switchTo().alert();
+		alert.dismiss();
 
 		// click on account 
 		MobileElement account_maillid = (MobileElement) wait
@@ -76,6 +80,8 @@ public class WelcomeScreen {
 	//	clcik_on_profileID.click();
 		
 		account_maillid.click();
+		Alert alert1=Setup.driver.switchTo().alert();
+		alert1.dismiss();
 		Thread.sleep(5000);
 		
 	}

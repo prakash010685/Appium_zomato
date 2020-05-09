@@ -26,7 +26,9 @@ import file_reader.FileReaderManager;
 			plugin = { "com.cucumber.listener.ExtentCucumberFormatter:/Users/prakashpatil/git/appium_zomato/target/report.html"}, 
 	features = "/Users/prakashpatil/git/appium_zomato/Features",
 
-	tags="@zomatoapp",
+	//tags="@zomatoapp",
+	
+	tags="@chromebrowser",
 			glue = "stepdefinitions",
 			monochrome = true
 			)

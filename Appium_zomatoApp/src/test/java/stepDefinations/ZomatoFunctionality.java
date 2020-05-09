@@ -86,6 +86,11 @@ public class ZomatoFunctionality {
 
 		//profile_screen.profile_info();
 		profile_screen.edit_profile();
+		
+		Setup set=new Setup();
+		
+		set.closeapp();
+		
 	}
 
 }
